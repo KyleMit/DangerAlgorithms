@@ -1,0 +1,51 @@
+﻿body {
+    background-image: url("../Images/mochaGrunge.png");
+    padding-top: 60px;
+}
+#Content {
+    width: 640px;
+    margin: 0 auto;
+    background-image: url("../Images/witewall_3.png");
+}
+section {
+    margin: 20px;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.justify {
+    text-align: justify;
+}
+.hero {
+    font-size: 3em;
+}
+.phone {
+    font-weight: bold;
+}
+.job {
+    font-weight: bold;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 800px) {
+    #Content {
+        width: 80%;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #Content {
+        width: 90%;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #Content {
+        width: 100%;
+    }
+}
