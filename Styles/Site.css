@@ -53,6 +53,10 @@ section {
 	display: inline-block;
 	width:150px;
 }
+.person > *{
+	margin: 0 auto;
+	text-align: center;
+}
 .circular {
 	display: block;
 	width: 80px;
