@@ -2,6 +2,10 @@
 body {
     background-image: url("../Images/sprinkles.png");
     padding-top: 60px;
+	font-size: 150%;
+}
+h1{
+    font-weight: bold;
 }
 #Content {
     width: 640px;
@@ -18,14 +22,18 @@ section {
 .justify {
     text-align: justify;
 }
-.hero {
-    font-size: 3em;
+.page-header {
+    font-size: 4em;
+    color: #d9230f;
 }
 .phone {
     font-weight: bold;
 }
 .job {
     font-weight: bold;
+}
+.navbar-nav>li>a{
+    font-size: 1.5em;
 }
 
 /* ================= MEDIA QUERIES ======================*/
