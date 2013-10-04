@@ -1,16 +1,19 @@
-﻿body {
-    background-image: url("../Images/mochaGrunge.png");
+﻿/* =================== PAGE ========================*/
+body {
+    background-image: url("../Images/sprinkles.png");
     padding-top: 60px;
 }
 #Content {
     width: 640px;
     margin: 0 auto;
-    background-image: url("../Images/witewall_3.png");
 }
 section {
     margin: 20px;
     padding-top: 60px;
     margin-top: -60px;
+}
+#Contact {
+	margin-bottom: 0px;
 }
 .justify {
     text-align: justify;
@@ -24,6 +27,8 @@ section {
 .job {
     font-weight: bold;
 }
+
+/* ================= MEDIA QUERIES ======================*/
 /* Large desktop */
 @media (min-width: 1200px) {
 
@@ -49,6 +54,8 @@ section {
         width: 100%;
     }
 }
+
+/* ================= FACES ======================*/
 .person {
 	display: inline-block;
 	width:150px;
@@ -90,5 +97,6 @@ section {
 	opacity: 1.0;
 	filter: alpha(opacity=100); /* msie */
 }
+
 
 
