@@ -25,6 +25,7 @@ section {
 .page-header {
     font-size: 4em;
     color: #d9230f;
+    border-bottom: 0px;
 }
 .phone {
     font-weight: bold;
