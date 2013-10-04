@@ -102,10 +102,17 @@ section {
 	opacity: 0.4;
 	filter: alpha(opacity=40); /* msie */
 }
-.highlightOnHover:hover {
+.person:hover .highlightOnHover {
 	opacity: 1.0;
 	filter: alpha(opacity=100); /* msie */
 }
-
+.person:hover .circular {
+	-webkit-box-shadow: 0 0 12px #000412;
+	   -moz-box-shadow: 0 0 12px #000412;
+	        box-shadow: 0 0 12px #000412;
+}
+.person:hover * {
+	font-weight: bold;
+}
 
 
