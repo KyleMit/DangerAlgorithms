@@ -37,6 +37,9 @@ section {
     font-size: 1.5em;
 }
 
+[data-gallery] img {
+    width: 125px;
+}
 /* ================= MEDIA QUERIES ======================*/
 /* Large desktop */
 @media (min-width: 1200px) {

@@ -3,15 +3,18 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danger Algorithms</title>
     <!--[if lt IE 9]>
           <script src="Scripts/HTML5Shiv.js"></script>
      <![endif]-->
     <link href="Styles/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css" rel="stylesheet" />
+    <link href="https://blueimp.github.io/Bootstrap-Image-Gallery/css/bootstrap-image-gallery.css" rel="stylesheet" />
     <link href="Styles/Site.css" rel="stylesheet" />
+
 	<link rel="shortuct icon" type="image/png" href="favicon.png" />
 	<link rel="shortcut icon" type="image/png" href="http://www.dangeralgorithms.com/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!-- Nav Bar -->
@@ -34,7 +37,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Recordings">Recordings</a></li>
-                <li><a href="#SetList">SetList</a></li>
+                <li><a href="#Photos">Photos</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
@@ -74,15 +77,48 @@
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/60208748"></iframe>
         </section>
 
-        <section id="SetList">
-            <h1>Set List</h1>
-            <ul>
-				<li>Cold Cold Heart, by Hank Williams</li>
-				<li>I've Just Seen a Face, by Beatles</li>
-				<li>Harvest Moon, by Neil Young</li>
-				<li>Blue Red And Grey, by The Who</li>
-				<li>In the Airplane Over the Sea, by Neutral Milk Hotel</li>
-			</ul>
+        <section id="Photos">
+            <h1>Photos</h1>
+
+            <div id="links">
+                <a href="Images/Gallery/Band 1.png" title="All together now" data-gallery>
+                    <img src="Images/Gallery/Band 1.png" alt="All together now" />
+                </a>
+                <a href="Images/Gallery/Band 2.png" title="Do you have any bars?"  data-gallery>
+                    <img src="Images/Gallery/Band 2.png" alt="Do you have any bars?" />
+                </a>
+                <a href="Images/Gallery/Band 3.png" title="Queen Wave" data-gallery>
+                    <img src="Images/Gallery/Band 3.png" alt="Queen Wave" />
+                </a>
+                <a href="Images/Gallery/Band 4.png" title="Playing Time" data-gallery>
+                    <img src="Images/Gallery/Band 4.png" alt="Playing Time" />
+                </a>
+                <a href="Images/Gallery/Band 5.png" title="Everything okay Nate?" data-gallery>
+                    <img src="Images/Gallery/Band 5.png" alt="Everything okay Nate?" />
+                </a>
+                <a href="Images/Gallery/Band 6.png" title="What's That?!'" data-gallery>
+                    <img src="Images/Gallery/Band 6.png" alt="What's That?!" />
+                </a>
+                <a href="Images/Gallery/Band 7.png" title="Over There!" data-gallery>
+                    <img src="Images/Gallery/Band 7.png" alt="Over There!" />
+                </a>
+                <a href="Images/Gallery/Band 8.png" title="It's coming toward us!" data-gallery>
+                    <img src="Images/Gallery/Band 8.png" alt="It's coming toward us!" />
+                </a>
+                <a href="Images/Gallery/Band 9.png" title="Oh, it's just a roomate'" data-gallery>
+                    <img src="Images/Gallery/Band 9.png" alt="Oh, it's just a roomate" />
+                </a>
+                <a href="Images/Gallery/Band 10.png" title="Trumpets of glory" data-gallery>
+                    <img src="Images/Gallery/Band 10.png" alt="Trumpets of glory" />
+                </a>
+                <a href="Images/Gallery/Band 11.png" title="Funny!" data-gallery>
+                    <img src="Images/Gallery/Band 11.png" alt="Funny!" />
+                </a>
+                <a href="Images/Gallery/Band 12.png" title="This one shows of some more of our creative side" data-gallery>
+                    <img src="Images/Gallery/Band 12.png" alt="This one shows of some more of our creative side" />
+                </a>
+            </div>
+
         </section>
 
         <section id="Contact">
@@ -94,8 +130,45 @@
         </section>
 
     </div>
+
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="https://blueimp.github.io/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.js"></script>
     <script src="Scripts/Site.js"></script>
 </body>
 </html>
