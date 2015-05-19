@@ -3,4 +3,4 @@ DANGERALGORITHMS.COM
 
 Website for the Danger Algorithms
 
-Redirected To: [DangerAlgorithms.com](DangerAlgorithms.com)
+Redirected To: [DangerAlgorithms.com](http://dangeralgorithms.com/)
