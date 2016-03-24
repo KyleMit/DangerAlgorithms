@@ -101,6 +101,9 @@ section {
 .kyle {
 	background-image: url(../Images/Kyle.jpg);
 }
+.ben {
+	background-image: url(../Images/Ben.jpg);
+}
 .highlightOnHover {
 	opacity: 0.4;
 	filter: alpha(opacity=40); /* msie */
