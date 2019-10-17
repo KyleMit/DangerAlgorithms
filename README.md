@@ -1,6 +1,4 @@
-DANGERALGORITHMS.COM
-====================
+# Danger Algorithms Band Website
 
-Website for the Danger Algorithms
-
-Redirected To: [DangerAlgorithms.com](http://dangeralgorithms.com/)
+**Currently**: [kylemit.github.io/DangerAlgorithms/](https://kylemit.github.io/DangerAlgorithms/)  
+**Previously**: [DangerAlgorithms.com](http://dangeralgorithms.com/)
